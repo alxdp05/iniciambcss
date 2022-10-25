@@ -1,0 +1,500 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Kanit:wght@300&display=swap');
+
+
+
+body {
+    width: 98%;
+    height: 160%;
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+    width: 98%;
+    height: 7.4%;
+    margin-left: 30px;
+    border: solid 2px transparent;
+    border-radius: 17px;
+    -webkit-box-shadow: 0px 59px 139px 1px rgba(0, 0, 0, 0.308);
+    -moz-box-shadow: 0px 59px 139px 1px rgba(0, 0, 0, 0.342);
+    box-shadow: 0px 59px 139px 1px rgba(0, 0, 0, 0.253);
+    overflow: hidden;
+}
+
+
+
+.botones {
+    position: absolute;
+    top: 35px;
+    width: 35%;
+    height: 60px;
+ /*   background-color: red;*/
+    display: grid;
+    grid-template-columns: repeat(4, 130px);
+    align-items: center;
+    padding: 0px 10px 10px 50px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    transition: .3s ease all;
+}
+
+.botones a {
+    cursor: pointer;
+    margin-top: 13px;
+    font-family: "Josefin Sans";
+    font-size: 20px;
+    color: black;
+    text-decoration: underline transparent;
+   /* background-color: yellow;*/
+}
+
+
+.btn3 {
+    padding-left: 10px;
+}
+
+.btn1 span{
+    transition: .3s ease all;
+}
+
+
+
+.btn1 span:hover {
+    color: rgb(75, 75, 75);
+    padding: 10px 20px 10px 20px;
+    background-color: orange;
+    border-radius: 40px;
+}
+
+.btn2 span{
+    transition: .3s ease all;
+}
+
+
+
+.btn2 span:hover {
+    color: rgb(255, 255, 255);
+    padding: 10px 20px 10px 20px;
+    background-color: purple;
+    border-radius: 40px;
+}
+
+.btn3 span{
+    transition: .3s ease all;
+}
+
+
+
+.btn3 span:hover {
+    color: rgb(255, 255, 255);
+    padding: 10px 20px 10px 20px;
+    background-color: rgb(0, 112, 156);
+    border-radius: 40px;
+}
+
+.btn4 span{
+    transition: .3s ease all;
+}
+
+
+
+.btn4 span:hover {
+    color: rgb(255, 255, 255);
+    padding: 10px 20px 10px 20px;
+    background-color: rgb(23, 0, 156);
+    border-radius: 40px;
+}
+
+.btn4 {
+    padding-left: 70%;
+}
+
+
+
+
+.titulo {
+    position: absolute;
+    right: 11.7%;
+    top: 15px;
+}
+
+
+.titulo h1 {
+    position: absolute;
+    font-family: Oswald;
+    text-align: right;
+}
+
+.contenedorblanco {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 96.1%;
+    height: 500px;
+    top: 33%;
+    left: 38px;
+    border: solid 2px transparent;
+    border-radius: 17px;
+    -webkit-box-shadow: 0px 59px 139px 1px rgba(0, 0, 0, 0.308);
+    -moz-box-shadow: 0px 59px 139px 1px rgba(0, 0, 0, 0.342);
+    box-shadow: 0px 59px 139px 1px rgba(0, 0, 0, 0.253);
+    overflow: hidden;
+}
+
+h1{
+    padding-left: 14px;
+    font-family: Oswald;
+}
+
+.parrafo {
+    width: 1220px;
+    height: 410px;
+    /*background-color: red;*/
+    font-size: 25px;
+    font-family: "Josefin Sans";
+    padding-bottom: 50px;
+
+}
+
+
+
+p {
+    color: black;
+    padding-left: 20px;
+    line-height: 30px;
+    text-align: justify;
+    font-family: Josefin Sans;
+}
+
+p strong {
+    color: blueviolet;
+}
+
+
+.grafica {
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    left: 38px;
+    bottom: -350px;
+    border: solid 2px transparent;
+    border-radius: 17px;
+    -webkit-box-shadow: 0px 59px 139px 1px rgba(0, 0, 0, 0.308);
+    -moz-box-shadow: 0px 59px 139px 1px rgba(0, 0, 0, 0.342);
+    box-shadow: 0px 59px 139px 1px rgba(0, 0, 0, 0.253);
+    overflow: hidden;
+    align-items: center;
+    
+}
+
+.parrafo2 {
+    position: absolute;
+    bottom: 190px;
+    left: 10px;
+    width: 350px;
+    height: 50px;
+    font-size: 18px;
+}
+
+.grafica a {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 150px;
+    height: 25px;
+    background-color: orange;
+    border: solid 2px transparent;
+    border-radius: 20px;
+    font-size: 16px;
+    overflow: hidden;
+    transition: 1s ease-in-out;
+}
+
+.grafica a span {
+    position: absolute;
+    top: 5px;
+    left: 16px;
+    color: black;
+    text-align: center;
+    align-items: center;
+    font-family: Josefin Sans;
+}
+
+.grafica a:hover {
+    background-color: rgb(163, 106, 0);
+    border: solid 2px rgba(0, 0, 0, 0.726);
+}
+
+/*---------------------------------------------------*/
+
+.cpu {
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    left: 480px;
+    bottom: -350px;
+    border: solid 2px transparent;
+    border-radius: 17px;
+    -webkit-box-shadow: 0px 59px 139px 1px rgba(0, 0, 0, 0.308);
+    -moz-box-shadow: 0px 59px 139px 1px rgba(0, 0, 0, 0.342);
+    box-shadow: 0px 59px 139px 1px rgba(0, 0, 0, 0.253);
+    overflow: hidden;
+    align-items: center;
+    
+}
+
+.parrafo3 {
+    position: absolute;
+    bottom: 190px;
+    left: 10px;
+    width: 350px;
+    height: 50px;
+    font-size: 18px;
+}
+
+.cpu a {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 150px;
+    height: 25px;
+    background-color: rgb(0, 255, 21);
+    border: solid 2px transparent;
+    border-radius: 20px;
+    font-size: 16px;
+    overflow: hidden;
+    transition: 1s ease-in-out;
+}
+
+.cpu a span {
+    position: absolute;
+    top: 5px;
+    left: 16px;
+    color: black;
+    text-align: center;
+    align-items: center;
+    font-family: Josefin Sans;
+}
+
+.cpu a:hover {
+    background-color: rgb(2, 150, 14);
+    border: solid 2px rgba(0, 0, 0, 0.726);
+}
+
+/*---------------------------------------------------*/
+.ram {
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    right: 475px;
+    bottom: -350px;
+    border: solid 2px transparent;
+    border-radius: 17px;
+    -webkit-box-shadow: 0px 59px 139px 1px rgba(0, 0, 0, 0.308);
+    -moz-box-shadow: 0px 59px 139px 1px rgba(0, 0, 0, 0.342);
+    box-shadow: 0px 59px 139px 1px rgba(0, 0, 0, 0.253);
+    overflow: hidden;
+    align-items: center;
+    
+}
+
+.parrafo4 {
+    position: absolute;
+    bottom: 190px;
+    left: 10px;
+    width: 350px;
+    height: 50px;
+    font-size: 18px;
+}
+
+.ram a {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 150px;
+    height: 25px;
+    background-color: rgb(0, 225, 255);
+    border: solid 2px transparent;
+    border-radius: 20px;
+    font-size: 16px;
+    overflow: hidden;
+    transition: 1s ease-in-out;
+}
+
+.ram a span {
+    position: absolute;
+    top: 5px;
+    left: 16px;
+    color: black;
+    text-align: center;
+    align-items: center;
+    font-family: Josefin Sans;
+}
+
+.ram a:hover {
+    background-color: rgb(0, 126, 143);
+    border: solid 2px rgba(0, 0, 0, 0.726);
+}
+
+/*---------------------------------------------------*/
+
+.disco {
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    right: 30px;
+    bottom: -350px;
+    border: solid 2px transparent;
+    border-radius: 17px;
+    -webkit-box-shadow: 0px 59px 139px 1px rgba(0, 0, 0, 0.308);
+    -moz-box-shadow: 0px 59px 139px 1px rgba(0, 0, 0, 0.342);
+    box-shadow: 0px 59px 139px 1px rgba(0, 0, 0, 0.253);
+    overflow: hidden;
+    align-items: center;
+    
+}
+
+.parrafo5 {
+    position: absolute;
+    bottom: 190px;
+    left: 10px;
+    width: 350px;
+    height: 50px;
+    font-size: 18px;
+}
+
+.disco a {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 150px;
+    height: 25px;
+    background-color: rgb(255, 0, 255);
+    border: solid 2px transparent;
+    border-radius: 20px;
+    font-size: 16px;
+    overflow: hidden;
+    transition: 1s ease-in-out;
+}
+
+.disco a span {
+    position: absolute;
+    top: 5px;
+    left: 16px;
+    color: black;
+    text-align: center;
+    align-items: center;
+    font-family: Josefin Sans;
+}
+
+.disco a:hover {
+    background-color: rgb(143, 0, 119);
+    border: solid 2px rgba(0, 0, 0, 0.726);
+}
+
+.mvcosas{
+    position: absolute;
+    bottom: -11%;
+    width: 98%;
+    height: 20%;
+}
+
+.ordenadoresbotonabajo {
+    position: absolute;
+    bottom: -58%;
+    left: 46.5%;
+    transition: .3s ease all;
+}
+
+.ordenadoresbotonabajo a{
+    color: black;
+    font-family: "Josefin Sans";
+    text-decoration: underline transparent;
+}
+
+.ordenadoresbotonabajo:hover {
+    position: absolute;
+    bottom: -58%;
+    left: 46%;
+    background-color: dodgerblue;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+}
+
+
+.contendorquetienesquesaber {
+    position: absolute;
+    top: 18%;
+    left: 38px;
+    width: 96.1%;
+    height: 11%;
+    background-color: rgb(255, 255, 255);
+    -webkit-box-shadow: 0px 59px 139px 1px rgba(0, 0, 0, 0.308);
+    -moz-box-shadow: 0px 59px 139px 1px rgba(0, 0, 0, 0.342);
+    box-shadow: 0px 59px 139px 1px rgba(0, 0, 0, 0.253);
+    border-radius: 15px;
+    align-items: center;
+    text-align: center;
+}
+
+
+::-webkit-scrollbar{
+    width: 0;
+}
+
+#scrollPath{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 10px;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.05);
+}
+
+#progressbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 10px;
+    background: linear-gradient(to top, #008aff, #00ffe7);
+    animation: animate 5s linear infinite;
+}
+
+@keyframes animate {
+    0%,100%
+    {
+        filter: hue-rotate(0deg)
+    }
+    50%
+    {
+        filter: hue-rotate(360deg)
+    }
+}
+
+#progressbar::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, #008aff, #00ffe7);
+    filter: blur(30px);
+}
+
+#progressbar::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, #008aff, #00ffe7);
+    filter: blur(30px);
+}
